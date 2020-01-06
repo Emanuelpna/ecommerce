@@ -11,7 +11,7 @@ import * as S from './styled';
 
 const Home = () => {
   const [busca, setBusca] = useState('');
-  const [cartVisibility, setCartVisibility] = useState(true);
+  const [cartVisibility, setCartVisibility] = useState(false);
 
   return (
     <S.Header>
